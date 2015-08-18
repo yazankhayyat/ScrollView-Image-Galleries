@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAD80F21B825DC9000E1251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD80F11B825DC9000E1251 /* main.m */; };
+		ACAD80F51B825DC9000E1251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD80F41B825DC9000E1251 /* AppDelegate.m */; };
+		ACAD80F81B825DC9000E1251 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD80F71B825DC9000E1251 /* ViewController.m */; };
+		ACAD80FB1B825DC9000E1251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAD80F91B825DC9000E1251 /* Main.storyboard */; };
+		ACAD80FD1B825DC9000E1251 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAD80FC1B825DC9000E1251 /* Images.xcassets */; };
+		ACAD81001B825DC9000E1251 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAD80FE1B825DC9000E1251 /* LaunchScreen.xib */; };
+		ACAD810C1B825DC9000E1251 /* ScrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD810B1B825DC9000E1251 /* ScrollerTests.m */; };
+		ACAD81191B826F2F000E1251 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD81181B826F2F000E1251 /* NewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAD81061B825DC9000E1251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAD80E41B825DC9000E1251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAD80EB1B825DC9000E1251;
+			remoteInfo = Scroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAD80EC1B825DC9000E1251 /* Scroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD80F01B825DC9000E1251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAD80F11B825DC9000E1251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAD80F31B825DC9000E1251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACAD80F41B825DC9000E1251 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACAD80F61B825DC9000E1251 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACAD80F71B825DC9000E1251 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACAD80FA1B825DC9000E1251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAD80FC1B825DC9000E1251 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACAD80FF1B825DC9000E1251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACAD81051B825DC9000E1251 /* ScrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD810A1B825DC9000E1251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAD810B1B825DC9000E1251 /* ScrollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollerTests.m; sourceTree = "<group>"; };
+		ACAD81171B826F2F000E1251 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		ACAD81181B826F2F000E1251 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAD80E91B825DC9000E1251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAD81021B825DC9000E1251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAD80E31B825DC9000E1251 = {
+			isa = PBXGroup;
+			children = (
+				ACAD80EE1B825DC9000E1251 /* Scroller */,
+				ACAD81081B825DC9000E1251 /* ScrollerTests */,
+				ACAD80ED1B825DC9000E1251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAD80ED1B825DC9000E1251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD80EC1B825DC9000E1251 /* Scroller.app */,
+				ACAD81051B825DC9000E1251 /* ScrollerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAD80EE1B825DC9000E1251 /* Scroller */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD80F31B825DC9000E1251 /* AppDelegate.h */,
+				ACAD80F41B825DC9000E1251 /* AppDelegate.m */,
+				ACAD80F61B825DC9000E1251 /* ViewController.h */,
+				ACAD80F71B825DC9000E1251 /* ViewController.m */,
+				ACAD81171B826F2F000E1251 /* NewViewController.h */,
+				ACAD81181B826F2F000E1251 /* NewViewController.m */,
+				ACAD80F91B825DC9000E1251 /* Main.storyboard */,
+				ACAD80FC1B825DC9000E1251 /* Images.xcassets */,
+				ACAD80FE1B825DC9000E1251 /* LaunchScreen.xib */,
+				ACAD80EF1B825DC9000E1251 /* Supporting Files */,
+			);
+			path = Scroller;
+			sourceTree = "<group>";
+		};
+		ACAD80EF1B825DC9000E1251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD80F01B825DC9000E1251 /* Info.plist */,
+				ACAD80F11B825DC9000E1251 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACAD81081B825DC9000E1251 /* ScrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD810B1B825DC9000E1251 /* ScrollerTests.m */,
+				ACAD81091B825DC9000E1251 /* Supporting Files */,
+			);
+			path = ScrollerTests;
+			sourceTree = "<group>";
+		};
+		ACAD81091B825DC9000E1251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD810A1B825DC9000E1251 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAD80EB1B825DC9000E1251 /* Scroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD810F1B825DC9000E1251 /* Build configuration list for PBXNativeTarget "Scroller" */;
+			buildPhases = (
+				ACAD80E81B825DC9000E1251 /* Sources */,
+				ACAD80E91B825DC9000E1251 /* Frameworks */,
+				ACAD80EA1B825DC9000E1251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scroller;
+			productName = Scroller;
+			productReference = ACAD80EC1B825DC9000E1251 /* Scroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAD81041B825DC9000E1251 /* ScrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD81121B825DC9000E1251 /* Build configuration list for PBXNativeTarget "ScrollerTests" */;
+			buildPhases = (
+				ACAD81011B825DC9000E1251 /* Sources */,
+				ACAD81021B825DC9000E1251 /* Frameworks */,
+				ACAD81031B825DC9000E1251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAD81071B825DC9000E1251 /* PBXTargetDependency */,
+			);
+			name = ScrollerTests;
+			productName = ScrollerTests;
+			productReference = ACAD81051B825DC9000E1251 /* ScrollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAD80E41B825DC9000E1251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Yazan;
+				TargetAttributes = {
+					ACAD80EB1B825DC9000E1251 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ACAD81041B825DC9000E1251 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ACAD80EB1B825DC9000E1251;
+					};
+				};
+			};
+			buildConfigurationList = ACAD80E71B825DC9000E1251 /* Build configuration list for PBXProject "Scroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAD80E31B825DC9000E1251;
+			productRefGroup = ACAD80ED1B825DC9000E1251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAD80EB1B825DC9000E1251 /* Scroller */,
+				ACAD81041B825DC9000E1251 /* ScrollerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAD80EA1B825DC9000E1251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD80FB1B825DC9000E1251 /* Main.storyboard in Resources */,
+				ACAD81001B825DC9000E1251 /* LaunchScreen.xib in Resources */,
+				ACAD80FD1B825DC9000E1251 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAD81031B825DC9000E1251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAD80E81B825DC9000E1251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD80F81B825DC9000E1251 /* ViewController.m in Sources */,
+				ACAD80F51B825DC9000E1251 /* AppDelegate.m in Sources */,
+				ACAD80F21B825DC9000E1251 /* main.m in Sources */,
+				ACAD81191B826F2F000E1251 /* NewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAD81011B825DC9000E1251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD810C1B825DC9000E1251 /* ScrollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAD81071B825DC9000E1251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAD80EB1B825DC9000E1251 /* Scroller */;
+			targetProxy = ACAD81061B825DC9000E1251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAD80F91B825DC9000E1251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAD80FA1B825DC9000E1251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAD80FE1B825DC9000E1251 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAD80FF1B825DC9000E1251 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAD810D1B825DC9000E1251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACAD810E1B825DC9000E1251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAD81101B825DC9000E1251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACAD81111B825DC9000E1251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACAD81131B825DC9000E1251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scroller.app/Scroller";
+			};
+			name = Debug;
+		};
+		ACAD81141B825DC9000E1251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scroller.app/Scroller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAD80E71B825DC9000E1251 /* Build configuration list for PBXProject "Scroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD810D1B825DC9000E1251 /* Debug */,
+				ACAD810E1B825DC9000E1251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAD810F1B825DC9000E1251 /* Build configuration list for PBXNativeTarget "Scroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD81101B825DC9000E1251 /* Debug */,
+				ACAD81111B825DC9000E1251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACAD81121B825DC9000E1251 /* Build configuration list for PBXNativeTarget "ScrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD81131B825DC9000E1251 /* Debug */,
+				ACAD81141B825DC9000E1251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAD80E41B825DC9000E1251 /* Project object */;
+}
